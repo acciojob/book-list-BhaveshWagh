@@ -14,6 +14,7 @@ form.addEventListener("submit", (e) => {
   inertRow.innerHTML = `<td>${title}</td>
                         <td>${author}</td>
                         <td>${isbn}</td>
+						<td><span class="delete">Clear</span></td>
     <button type="button" class="delete btn btn-danger">X</button>
 `;
   bookList.appendChild(inertRow);
